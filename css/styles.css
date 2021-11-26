@@ -1,4 +1,66 @@
-a { */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --secondary-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+body li {
+  list-style-type: none;
+}
+
+body a {
   text-decoration: none;
-  /* color: rgb(122, 37, 37); */
+}
+
+p {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* логотип */
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 3%;
+}
+.logo span {
+  color: var(--secondary-color);
+}
+
+/* навигация */
+.navigation a {
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+.navigation a:hover {
+  color: var(--secondary-color);
+}
+
+.navigation a:focus {
+  color: var(--secondary-color);
+}
+.navigation .active {
+  color: var(--secondary-color);
+}
+
+/* телефон и почта */
+.contacts-links a {
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+.contacts-links a:hover {
+  color: var(--secondary-color);
+}
+/* футер */
+footer {
+  background-color: #2f303a;
 }
